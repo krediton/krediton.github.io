@@ -222,6 +222,7 @@ plugins:
   - jekyll-paginate
   - jekyll-include-cache
   - jekyll-sitemap
+  - jekyll-mermaid
 
 
 # Exclude these files from production site
