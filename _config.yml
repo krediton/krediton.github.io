@@ -7,11 +7,11 @@ remote_theme: dieghernan/chulapa
 # A. Site Settings /SEO options
 # Overall options for your site, would affect your site SEO
 # Default values are explained
-locale                  :     #default["en-US"] format language-TERRITORY , e.g fr, en-GB, es-MX, pt-BR
-title                   : Chulapa 101    #default["repository_name"]
+locale                  : ru-Ru    #default["en-US"] format language-TERRITORY , e.g fr, en-GB, es-MX, pt-BR
+title                   : Кредитон    #default["repository_name"]
 title_separator         :     #default [" | "]
-subtitle                : Chulapa Jekyll Theme starter pack    #default [your-repository-tagline]  
-description             : Chulapa Jekyll Theme starter pack #default [your-repository-tagline]
+subtitle                : TON DeFi сервис   #default [your-repository-tagline]  
+description             : Описание скоро будет #default [your-repository-tagline]
 url                     :     #See baseurl - On Github Pages you may leave it blank - If you use CNAME use your domain
 baseurl                 :     #On Github Pages you may leave it blank. Have a look to: https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/
 words_per_minute        :     #default[200]
@@ -21,9 +21,9 @@ timezone                :     #"Europe/Madrid ,see https://jekyllrb.com/docs/con
 og_image                :     #default[author.avatar (see below)] or [github-avatar]
 twitter_site            :     #Avoid @
 author:
-  name                  :  Your Name   # Name Surname Company
+  name                  :  Кредитон   # Name Surname Company
   avatar                :     # Try a square file. Info: Your github avatar on https://github.com/[USERNAME].png
-  location              :  "Madrid, Spain"   # New York, USA 
+  location              :  "Moscow, USSR"   # New York, USA 
 #  links:                
 #    - url:  #A link or email: https://twitter.com/jack, mail@example.com
 #      icon: # A Fontawesome 5 code: fab fa-twitter - see https://fontawesome.com/
@@ -124,9 +124,12 @@ navbar:
 #Social links to be placed on your site footer
 footer:
   links:
+    - label : Telegram канал # Label
+      icon  : fab fa-telegram # Fontawesome 5 icon
+      url   : https://t.me/krediton_official # A link or email: https://twitter.com/jack, mail@example.com
     - label : Repo on Github # Label
       icon  : fab fa-github # Fontawesome 5 icon
-      url   : https://github.com/dieghernan/chulapa-101 # A link or email: https://twitter.com/jack, mail@example.com
+      url   : https://github.com/krediton # A link or email: https://twitter.com/jack, mail@example.com      
     - label: "RSS"
       icon: "fa fa-rss"
       url:  "./atom.xml"
@@ -140,7 +143,7 @@ googlefonts:
 # Theme and colors
 chulapa-skin: 
   highlight     :  # default["default"]
-  skin         :  # Optional predefined skins
+  skin         :  gitdev # Optional predefined skins
   autothemer    :  true # Bool: Use autotheming
   vars          :    
     primary     : lightskyblue #default ["#007bff"] - Bootstrap blue
