@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: landingpage
 title: Кредитон
 header_type: hero
 subtitle: TON deFi-сервис
