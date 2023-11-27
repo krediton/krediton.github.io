@@ -3,6 +3,7 @@ layout: landingpage
 title: Кредитон
 header_type: hero
 subtitle: TON deFi-сервис
+header_type: hero
 ---
 
 Click [**Use this template**](https://github.com/dieghernan/chulapa-101/generate) button above for cloning this repo and get started with [Chulapa Jekyll theme](https://github.com/dieghernan/chulapa).
