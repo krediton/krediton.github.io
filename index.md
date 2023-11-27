@@ -6,20 +6,14 @@ subtitle: TON deFi-сервис
 header_type: splash
 ---
 
-Click [**Use this template**](https://github.com/dieghernan/chulapa-101/generate) button above for cloning this repo and get started with [Chulapa Jekyll theme](https://github.com/dieghernan/chulapa).
-
-Contains basic configuration to get you a site with:
-
-- Sample posts and [paginated blog index](./blog/).
-- Sample collection with Markdown and kramdown cheatsheets and [collection index](./cheatsheets).
-- Archive pages for posts grouped by year, category, and tag.
-- Demo page with the different Bootstrap components and how they look with the actual skin settings.
-- Sample 404 page.
-- Site search with Lunr.
-- Sample `_config` with minimal configuration. `primary` color is set to <span class="text-primary">LightSkyBlue</span> and `autothemer` is enabled. [Learn how to customize your site](https://dieghernan.github.io/chulapa/docs/03-theming).
-- Sample `algolia-search.yml` for using Algolia+GitHub Actions.
-- Sample files for extending the theme with your own scripts and css.
-
-On addition, `jekyll-sitemap` generates your sitemap on [./sitemap.xml](./sitemap.xml), and Chulapa generates an Atom feed on [./atom.xml](./atom.xml) and a RSS 2.0 feed on [./rss.xml](./rss.xml).
-
-[Configure as necessary](https://dieghernan.github.io/chulapa/docs/02-config) and replace sample content with your own.
+## Токеномика Lombard Revival Token ($LRT)
+$LRT — облигационный токен Ломбарда, который в определённый срок можно будет обменять 1:1 на токен проекта Кредитон $KRDT (а можно и не обменять).
+#### Total supply: 2’422 $LRT
+#### Ownership is revoked
+```mermaid
+%%{init: {"pie": {"textPosition": 0.5}, "themeVariables": {"pieOuterStrokeWidth": "5px"}} }%%
+pie showData
+    title $LRT Tokenomics
+    "Возмещено" : 1590
+    "К возмещению" : 832
+```
