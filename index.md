@@ -4,6 +4,7 @@ title: Кредитон
 header_type: hero
 subtitle: TON deFi-сервис
 header_type: splash
+mermaid: true
 ---
 
 ## Токеномика Lombard Revival Token ($LRT)
