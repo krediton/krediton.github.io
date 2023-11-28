@@ -11,9 +11,12 @@ mermaid: true
 $LRT — облигационный токен Ломбарда, который в определённый срок можно будет обменять 1:1 на токен проекта Кредитон $KRDT (а можно и не обменять).
 #### Total supply: 2’422 $LRT
 #### Ownership is revoked
+
 ```mermaid
-pie showData;
-    title $LRT Tokenomics;
-    "Возмещено" : 1590;
-    "К возмещению" : 832;
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
 ```
+
