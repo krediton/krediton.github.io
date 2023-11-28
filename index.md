@@ -12,7 +12,6 @@ $LRT — облигационный токен Ломбарда, который 
 #### Total supply: 2’422 $LRT
 #### Ownership is revoked
 ```mermaid
-%%{init: {"pie": {"textPosition": 0.5}, "themeVariables": {"pieOuterStrokeWidth": "5px"}} }%%
 pie showData
     title $LRT Tokenomics
     "Возмещено" : 1590
